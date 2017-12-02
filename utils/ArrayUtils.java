@@ -1,7 +1,7 @@
 package utils;
 
 public class ArrayUtils{
-	public static int[] reverse(int[] arr){
+	public static void reverse(int[] arr){
 		
 		for (int i=0; i < (arr.length-1) / 2 ; i++) {
 			int help = arr[i];
@@ -9,7 +9,6 @@ public class ArrayUtils{
 			arr[arr.length - (i+1)] = help;
 		}
 	}
-}
 
 public static String stringifyArray(int[] arr){
 		String result = "";
