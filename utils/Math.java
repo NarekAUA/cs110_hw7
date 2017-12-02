@@ -13,7 +13,7 @@ public class Math{
 
 
 	public static long factorialLoop(int num){
-		int fact = 1;
+		long fact = 1;
 		
 		for (int i = 1; i <= num; i++) {
 			
