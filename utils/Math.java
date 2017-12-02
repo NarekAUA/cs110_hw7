@@ -3,7 +3,7 @@ package utils;
 public class Math{
 
 
-	public static int factorial(int num){
+	public static long factorial(int num){
 		if (num <= 0) {
 			return 1;
 		}
@@ -12,7 +12,7 @@ public class Math{
 	}
 
 
-	public static int factorialLoop(int num){
+	public static long factorialLoop(int num){
 		int fact = 1;
 		
 		for (int i = 1; i <= num; i++) {
